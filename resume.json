@@ -1,0 +1,405 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Brandon Burnett",
+    "label": "Cool dude who doesn't afraid of anything",
+    "image": "",
+    "email": "brandon@awesomeindustries.net",
+    "phone": "5034326325",
+    "url": "https://awesomeindustries.net",
+    "summary": "IT Ninja specializing in linux / unix administration with a soft spot for coding, tinkering with web technology, and the hacking of things.\n\nSpecialties: apache webserver,  bash,  cisco, computer hardware,  computer networking,  css,  dhcp, dns, electronics,  flash,  freebsd,  frontpage,  html,  http,  iis,  illustrator,  intel,  javascript, linux, mysql,  network administration,  networking,  operating systems,  perl,  php,  purchasing,  python,  sales,  samba,  servers,  shell scripting,  smtp,  sql,  system administration,  tcp/ip,  technician,  telephone skills,  troubleshooting,  unix,  vista,  web site production,  xhtml,  xml,  xslt,",
+    "location": {
+      "address": "14156 Redland Rd",
+      "city": "Oregon City",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ACoAAALl6wgB7eWQ6B0t5Zv8-DyrPzwyeTg7t98",
+        "url": "https://www.linkedin.com/in/ACoAAALl6wgB7eWQ6B0t5Zv8-DyrPzwyeTg7t98/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "New Relic, Inc.",
+      "position": "Lead Software Engineer",
+      "startDate": "2020-05-31",
+      "endDate": "",
+      "highlights": [
+        "Developed services in Ruby, Ruby-on-Rails, Java, and Javascript",
+        "Lead team's transition from datacenter service deployments to AWS Managed Kubernetes",
+        "Developed React front-ends for managing customer entitlements, subscriptions, and accounts",
+        "Developed end-to-end test suite for team's major services",
+        "Migrated subscription change queuing system from in-house solution to AWS SNS/SQS backed service",
+        "Participated in 24/7/365 on-call rotation"
+      ],
+      "summary": "Individual contributor for billing and subscription management team. Developed and managed a suite of services managing customer product entitlements, subscriptions, and billing information.",
+      "url": "https://www.linkedin.com/company/new-relic-inc-/",
+      "location": "Portland, Oregon Area"
+    },
+    {
+      "name": "New Relic, Inc.",
+      "position": "Technical Product Manager / Senior Software Engineer",
+      "startDate": "2019-06-30",
+      "endDate": "2020-05-31",
+      "highlights": [
+        "Prioritized team objectives based on stakeholder feedback and worked closely with sister teams to ensure workstreams would not block each other",
+        "Curated team MMFs and facilitated planning sessions",
+        "Used Terraform to manage alerting and dashboard infrastructure for team owned products",
+        "Assisted in the development of Kubernetes CRDs for in-house load balancing solution",
+        "Managed, configured, and maintained F5 load-balancing tiers for internal, staging, and production networks",
+        "Migrated antiquated DNS infrastructure from F5s to BGP/Keepalived in development, staging, and production networks",
+        "Used Ignition/SLPXE/Ansible to deploy and orchestrate docker  container services for DNS and in-house load balancing solutions extensively",
+        "Migrated CentOS/CoreOS hosts to Flatcar",
+        "Participated in 24/7/365 on-call rotation"
+      ],
+      "summary": "Individual contributor and technical product manager for the External Load Balancing team. Responsible for KTLO on the F5s, DNS, Fastly, and in house load balancing solutions. In addition, provided leadership and direction around team deliverables and priorities.",
+      "url": "https://www.linkedin.com/company/new-relic-inc-/",
+      "location": "Portland, Oregon Metropolitan Area"
+    },
+    {
+      "name": "NWEA",
+      "position": "Manager, DevOps",
+      "startDate": "2018-07-31",
+      "endDate": "2019-06-30",
+      "highlights": [
+        "Oversaw DevOps staff, managed the prioritization of team deliverables, and worked with project managers, department heads and team members to determine project approaches, and parameters",
+        "Set standards and guidelines for tools, processes, technologies, and methodologies used by the DevOps team to develop and deliver solutions",
+        "Reduced team expenditures by $250,000/yr by transitioning to Open Source Puppet from Puppet Enterprise",
+        "Worked with the Architecture team to develop and maintain blueprints and road maps for all systems and automation related components",
+        "Conducted capacity planning for build automation systems and development environments",
+        "Analyzed growth patterns to predict future need for development environments and build systems",
+        "Developed Third Party Patching Policy for applications, code dependencies, and firmware supported by product engineering organization",
+        "Developed Access Management policies and processes for Amazon Web Services"
+      ],
+      "summary": "Lead the day to day operations of the DevOps teams. Served as an expert in NWEA technologies, automation, and deployment strategies. Worked with internal stakeholders to schedule and prioritize DevOps deliverables. Provided technical and non-technical mentorship to all members of the team.",
+      "url": "https://www.linkedin.com/company/nwea/",
+      "location": "Portland, Oregon Area"
+    },
+    {
+      "name": "NWEA",
+      "position": "Sr. DevOps / Linux Systems Engineer",
+      "startDate": "2014-08-31",
+      "endDate": "2018-07-31",
+      "highlights": [
+        "Lead DevOps staff on the design, implementation, and maintenance of enterprise systems",
+        "Drove team towards implementing rolling deployments and restarts across collocated services",
+        "Lead deployment of Prometheus / Grafana for the aggregation of system and application metrics",
+        "Lead transition from NagiosXI to Sensu Open Source for monitoring and alerting",
+        "Worked directly with developers to facilitate application deployment, configuration, monitoring, and triaging procedures for Java, Clojure, NodeJS and PHP applications",
+        "Primary engineer supporting application deployments to production environments",
+        "Supported developers transitioning a collocated SaaS deployed on Linux VMs to serverless, microservice architecture on AWS",
+        "Developed proof of concept services using AWS Lambda, DynamoDB, Kinesis, SNS, and other serverless technologies with Terraform, NodeJS, and the aws-sdk",
+        "Transitioned company from independently provisioned IAM credentials to SAML/ADFS implementation",
+        "Prioritized team objectives based on stakeholder feedback and worked closely with sister teams to ensure workstreams would not block each other",
+        "Used Puppet/Hiera/r10k extensively to manage system configuration and application configuration",
+        "Developed NodeJS/React web application to ease the burden of monthly development releases",
+        "Developed Ruby/Sinatra web application allowing developers to manage software deployments in environments",
+        "Developed CI/CD Build Pipeline utilizing Docker, Nomad, Consul, and Jenkins",
+        "Automated deployment and configuration of BIG-IP F5 LTM load balancer across ~2,500 VMs",
+        "Responsible for ~2,500 Redhat and CentOS VMs deployed on VMWare ESXi with Foreman"
+      ],
+      "summary": "Responsible for configuration management, system provisioning, monitoring, and automation in production and pre-production environments for web-based SaaS. Generally tried to automate away as much of the day to day operations as possible so I could spend the afternoon reading about cool new JavaScript frameworks on Hacker News.",
+      "url": "https://www.linkedin.com/company/nwea/",
+      "location": "Portland, Oregon Area"
+    },
+    {
+      "name": "US Army Corps of Engineers",
+      "position": "Web Application Engineer",
+      "startDate": "2014-02-28",
+      "endDate": "2014-07-31",
+      "highlights": [
+        "Installed, configured, maintained Oracle WebLogic and Forms and Reports services",
+        "Installed, configured, maintained Apache and Nginx as a proxy for Java services",
+        "Monitored web application services with Nagios",
+        "Provisioned and configured RHEL5/6 virtual servers on VMWare ESXi",
+        "Automated service deployments with Puppet on RHEL and Solaris 9/10/11"
+      ],
+      "summary": "Responsible for installing, configuring, and maintaining web application services for the Corps of Engineers network. Provide systems administration on RHEL5/6 and Oracle Solaris 8/9/10.",
+      "url": "https://www.linkedin.com/company/us-army-corps-of-engineers/"
+    },
+    {
+      "name": "Nike",
+      "position": "Linux Systems Engineer",
+      "startDate": "2013-04-30",
+      "endDate": "2014-02-28",
+      "highlights": [
+        "Developed application monitoring dashboards in Python utilizing Flask, HTML5/CSS, and jQuery",
+        "Helped identify and eliminate application bottlenecks using New Relic, Chrome, and other utilities",
+        "Utilized Puppet and Chef across all environments to automatically configure and deploy software",
+        "Provided support as needed in staging, release, and production environments",
+        "Developed Python automation frameworks to simply management of environments"
+      ],
+      "summary": "Managed developer environments for large scale web application consisting of various technologies ncluding Apache, JBoss, Oracle, and Java. Provided systems administration, monitoring, maintainence, deployments, troubleshooting, and automation services",
+      "url": "https://www.linkedin.com/company/nike/",
+      "location": "Beaverton, OR"
+    },
+    {
+      "name": "Intel Corporation",
+      "position": "Network Systems Engineer",
+      "startDate": "2011-08-31",
+      "endDate": "2013-04-30",
+      "highlights": [
+        "Responsible for day to day administration/monitoring of production java application",
+        "Deployed Puppet and Chef across environments to automatically provision and configure machines",
+        "Constructed clean, high volume integration, development, and pilot networks",
+        "Developed generic Linux kernel modules in C for Android OS",
+        "Developed Python automation and test framework for interacting with smart card media"
+      ],
+      "summary": "Served as on onsite administrator for a medium sized mobile commerce development group. Provided general troubleshooting of operating systems, networking, software installations and hardware upgrades as well as assisted in web development for client’s web applications.",
+      "url": "https://www.linkedin.com/company/intel-corporation/",
+      "location": "Hillsboro, OR"
+    },
+    {
+      "name": "Oregon Convention Center",
+      "position": "IT / Telecom Technician",
+      "startDate": "2011-07-31",
+      "endDate": "2013-04-30",
+      "highlights": [
+        "Diagramed Convention Center networks in Microsoft Visio",
+        "Designed ‘Captive Portal’ web pages for client’s Wi-Fi network on an events related basis"
+      ],
+      "summary": "Supported the Convention Center’s events related networks. Configured switches, routers, and Xirrus wifi-arrays via console and GUI applications. Provided on-site technical support to customer’s when needed.",
+      "url": "https://www.linkedin.com/company/oregon-convention-center/",
+      "location": "Portland, Oregon Area"
+    },
+    {
+      "name": "Portland Community College",
+      "position": "Student Help Desk Lead",
+      "startDate": "2008-01-31",
+      "endDate": "2011-08-31",
+      "highlights": [
+        "Trained new employees in equipment usage and supporting students/faculty",
+        "Maintained a collection of laptops, digital cameras, and projectors for students to check out and use",
+        "Developed several awareness guides to help protect students from malware and unauthorized access"
+      ],
+      "summary": "Supported students and faculty members for the college’s “MyPCC” records system and Blackboard online classroom systems. Support was provided in-person and over the phone escalating calls as necessary.",
+      "url": "https://www.linkedin.com/school/portland-community-college/",
+      "location": "Portland, Oregon Area"
+    },
+    {
+      "name": "Intel Corporation",
+      "position": "Lab Tech Lead",
+      "startDate": "2010-04-30",
+      "endDate": "2011-04-30",
+      "highlights": [
+        "Performed manageability and security compliance testing on major management consoles",
+        "Instrumented and validated customer reference boards for power and performance validation",
+        "Developed automated workloads for benchmarking and power validation"
+      ],
+      "summary": "Served as on onsite technician lead for a power and performance forecasting group. Maintained Windows Server 2008, Windows 7, and Linux workstations for testing environments. Trained and provided assistance in determining ‘best known methods’ for benchmarking and power validation.",
+      "url": "https://www.linkedin.com/company/intel-corporation/",
+      "location": "Hillsboro, OR"
+    },
+    {
+      "name": "Inavero Institute",
+      "position": "Test Intern",
+      "startDate": "2009-10-31",
+      "endDate": "2010-03-31",
+      "highlights": [
+        "Developed a suite of automated GUI tests utilizing Selenium and the PHPUnit testing framework",
+        "Integrated company’s backend java survey software with WordPress CMS",
+        "Deployed and maintained company-wide Cisco VPN for external access to resources and applications"
+      ],
+      "summary": "Responsible for designing and implementing automated and manual test cases to ensure the company’s in-house PHP web application deployed stable and bug free. Also served as an onsite systems administrator responsible for maintaining the company’s network and servers.",
+      "url": ""
+    },
+    {
+      "name": "Intel Corporation",
+      "position": "Lab Technician",
+      "startDate": "2008-04-30",
+      "endDate": "2009-04-30",
+      "highlights": [
+        "Performed system administration on CentOS, FreeBSD, OpenBSD and Windows Server",
+        "Managed 25-30 business critical servers during our product's external pilot phase",
+        "Constructed clean, high volume integration, development, and pilot networks",
+        "Developed and maintained support website for external pilot users"
+      ],
+      "summary": "Served as on onsite technician for a medium sized mobile commerce development group and as an interim network / systems administrator. Provided general troubleshooting of operating systems, networking, software installations and hardware upgrades as well as assisted in web development for in-group and out-of-group Intel employees.",
+      "url": "https://www.linkedin.com/company/intel-corporation/"
+    },
+    {
+      "name": "OfficeMax",
+      "position": "Technology Sales Associate",
+      "startDate": "2006-06-30",
+      "endDate": "2007-06-30",
+      "highlights": [
+        "Maintained excellent communication with supervisors and customers",
+        "Accomplished and exceeded all sales goals and quotas"
+      ],
+      "summary": "Took lead in sales situations involving technology and electronics in general. I provided guidance to customers purchasing new computers, computer components and software.",
+      "url": "https://www.linkedin.com/company/officemax/",
+      "location": "Milwaukie, OR"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Rewild Portland",
+      "position": "IT Guru",
+      "startDate": "2013-06-01",
+      "endDate": "Present",
+      "summary": "Helped do all things IT related including purchasing guidence, service support, website hosting, and development",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/59336"
+    },
+    {
+      "organization": "Free Geek",
+      "position": "Instructor",
+      "startDate": "2012-01-31",
+      "endDate": "2013-01-31",
+      "summary": "Taught an introductory course on using the Ubuntu operating system to students who qualified for free computers through the volunteer program.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/59336"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Oregon Institute of Technology",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Science (B.S.)",
+      "startDate": "2009-12-31",
+      "endDate": "2012-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Portland Community College",
+      "area": "Computer Information Systems",
+      "studyType": "Associate of Science (A.S.)",
+      "startDate": "2007-12-31",
+      "endDate": "2009-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "CCNA",
+      "issuer": "Cisco",
+      "endDate": "2013-10-31",
+      "startDate": "2010-10-31"
+    },
+    {
+      "name": "A+",
+      "issuer": "CompTIA",
+      "startDate": "2009-06-30"
+    },
+    {
+      "name": "Network+",
+      "issuer": "CompTIA",
+      "startDate": "2010-03-31"
+    },
+    {
+      "name": "CCNP",
+      "issuer": "Cisco",
+      "startDate": "2013-09-30"
+    },
+    {
+      "name": "Security+",
+      "issuer": "CompTIA",
+      "startDate": "2013-01-31"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Senior",
+      "keywords": [
+        "Apollo",
+        "CSS",
+        "HTML",
+        "JSX",
+        "Next",
+        "React",
+        "Redux",
+        "SCSS",
+        "Styled Components"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "Senior",
+      "keywords": [
+        "Golang",
+        "Java",
+        "Javascript",
+        "Node",
+        "Python",
+        "Rails",
+        "Ruby",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Senior",
+      "keywords": [
+        "Aurora",
+        "Kafka",
+        "MongoDB",
+        "MySQL",
+        "Postgres",
+        "Redis"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Senior",
+      "keywords": [
+        "Ansible",
+        "Chef",
+        "ELK",
+        "Foreman",
+        "Grafana",
+        "Nagios",
+        "New Relic",
+        "PagerDuty",
+        "Prometheus",
+        "Puppet",
+        "Sensu",
+        "Splunk"
+
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Senior",
+      "keywords": [
+        "API Gateway",
+        "CloudFront",
+        "CloudTrail",
+        "CloudWatch",
+        "Cognito",
+        "Dynamo",
+        "EC2",
+        "EKS",
+        "IAM",
+        "KMS",
+        "Kinesis",
+        "Lambda",
+        "RDS",
+        "Route 53",
+        "S3",
+        "SNS",
+        "SQS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

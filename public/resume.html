@@ -1,0 +1,674 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimal-ui"
+    />
+    <title>Brandon Burnett</title>
+    <style>@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+:root {
+  --body-background-color: #002b36; /* solarized base03 */
+  --border-color: #e0e0e0;
+  --subtitle-color: #93a1a1; /* solarized base1 */
+  --title-color: #dc332f; /* solarized red */
+  --new-background-color: #81c784;
+  --new-border-color: #757575;
+  --hover-color: #268bd2; /* solarized blue */
+  --link-color: #2aa198; /* solarized cyan */
+  --text-color: #586e75; /* solarized base01 */
+
+  --right-font-family: "Share Tech Mono";
+  --left-font-family: "Share Tech Mono";
+}
+
+body,
+html {
+  color: var(--text-color);
+  background-color: var(--body-background-color);
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.header-content {
+  display: inline-block;
+}
+
+.header-text {
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+header p {
+  text-align: center;
+  font-family: var(--left-font-family);
+  margin: 0;
+  color: var(--title-color);
+}
+
+.title {
+  color: var(--subtitle-color);
+}
+
+.subtitle {
+  font-family: var(--left-font-family);
+  padding-top: 0.3em;
+  color: var(--subtitle-color);
+}
+
+.paper {
+  background-color: var(--body-background-color);
+}
+
+/* Content Part */
+
+.content-wrapper {
+  padding-right: 7.25%;
+}
+
+.content {
+  display: table;
+  width: 100%;
+
+  padding-top: 1.5em;
+}
+
+.content:last-child {
+  margin-bottom: 2em;
+}
+
+body > div > article > div > section:last-child {
+  padding-bottom: 1.5em;
+}
+
+.row {
+  display: table-row;
+}
+.row div {
+  display: table-cell;
+}
+
+.content-cat {
+  font-family: var(--left-font-family);
+  color: var(--title-color);
+  text-align: right;
+  vertical-align: middle;
+  padding-right: 1%;
+  width: 30%;
+}
+
+.content-cat p {
+  margin-bottom: 0;
+}
+
+.content-text {
+  border-left: 1px solid var(--border-color);
+  transition: border 0.66s ease-in;
+}
+
+.big-text {
+  vertical-align: top;
+}
+
+.content-text ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.15em;
+  width: 85%;
+  margin-left: 1.5em;
+}
+
+.content-text ul:last-child {
+  margin-bottom: 0.5em;
+}
+
+.content-text ul li {
+  font-family: var(--right-font-family);
+  display: inline-block;
+}
+
+.content-text ul li:first-child {
+  width: 35%;
+}
+
+.content-text ul li a,
+div.content-text.work-listing.education-listing > p > strong > a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.content-text ul li a:hover {
+  color: var(--hover-color);
+}
+
+.work-listing p {
+  font-family: var(--right-font-family);
+  margin-left: 2em;
+  margin-top: 0.45em;
+  margin-bottom: 0.45em;
+}
+
+div.content-text.work-listing.education-listing > p:nth-child(2) {
+  margin-top: 0.25em;
+}
+
+.work-listing .highlight {
+  font-family: var(--right-font-family);
+  margin-left: 3.25em;
+  list-style-type: disc;
+  list-style-position: inside;
+  display: list-item;
+}
+
+.education-listing > .heading {
+  margin-top: 0.75em;
+  margin-left: 2em;
+}
+
+.education-listing > .highlight {
+  margin-left: 3.25em;
+}
+
+.highlight {
+  transition: border 0.33s ease-in;
+}
+
+.profiles-listing ul li,
+.profiles-listing ul li:first-child {
+  width: 32%;
+}
+
+.work-content,
+.education-content {
+  padding-top: 0.75em;
+  page-break-inside: avoid;
+}
+
+section.content.education-content > div > div.content-cat {
+  vertical-align: top;
+}
+
+div.content-text.skills-listing > p {
+  font-family: var(--right-font-family);
+  margin-left: 2em;
+  margin-top: 0.45em;
+  margin-bottom: 0.45em;
+}
+
+div.content-text.skills-listing > p > {
+  color: var(--header-p-color);
+}
+</style>
+
+  </head>
+  <body>
+    <div class="resume-wrapper">
+      <article class="paper">
+          <header>
+            <div class="header-content">
+              <div class="header-text">
+                <p>
+                  Brandon Burnett
+                </p>
+                <p class="subtitle">Cool dude who doesn&#x27;t afraid of anything</p>
+              </div>
+            </div>
+          </header>
+        <div class="content-wrapper">
+            <!-- CONTACT -->
+            <section class="content">
+              <div class="row">
+                <div class="content-cat">
+                  Contact
+                </div>
+                <div class="content-text">
+                    <ul>
+                      <li class="title">Email</li>
+                      <li><a href="mailto:brandon@awesomeindustries.net">brandon@awesomeindustries.net</a></li>
+                    </ul>
+                    <ul>
+                      <li>Phone</li>
+                      <li>5034326325</li>
+                    </ul>
+                </div>
+              </div>
+            </section>
+
+                <section class="content">
+                  <div class="row">
+                    <div class="content-cat">
+                      Location
+                    </div>
+                    <div class="content-text">
+                        <ul>
+                          <li>Address</li>
+                          <li>14156 Redland Rd</li>
+                        </ul>
+                    </div>
+                  </div>
+                </section>
+
+            <section class="content">
+              <div class="row">
+                <div class="content-cat">
+                  Professional Skills Summary
+                </div>
+                <div class="content-text skills-listing">
+                    <p>
+                      <span class="title">
+                          <strong>
+                            Frontend
+                          </strong>
+                      </span>
+                        <span class="title">(Senior):</span>
+                        Apollo, CSS, HTML, JSX, Next, React, Redux, SCSS, Styled Components
+                    </p>
+                    <p>
+                      <span class="title">
+                          <strong>
+                            Languages
+                          </strong>
+                      </span>
+                        <span class="title">(Senior):</span>
+                        Golang, Java, Javascript, Node, Python, Rails, Ruby, TypeScript
+                    </p>
+                    <p>
+                      <span class="title">
+                          <strong>
+                            Databases
+                          </strong>
+                      </span>
+                        <span class="title">(Senior):</span>
+                        Aurora, Kafka, MongoDB, MySQL, Postgres, Redis
+                    </p>
+                    <p>
+                      <span class="title">
+                          <strong>
+                            DevOps
+                          </strong>
+                      </span>
+                        <span class="title">(Senior):</span>
+                        Ansible, Chef, ELK, Foreman, Grafana, Nagios, New Relic, PagerDuty, Prometheus, Puppet, Sensu, Splunk
+                    </p>
+                    <p>
+                      <span class="title">
+                          <strong>
+                            AWS
+                          </strong>
+                      </span>
+                        <span class="title">(Senior):</span>
+                        API Gateway, CloudFront, CloudTrail, CloudWatch, Cognito, Dynamo, EC2, EKS, IAM, KMS, Kinesis, Lambda, RDS, Route 53, S3, SNS, SQS
+                    </p>
+                </div>
+              </div>
+            </section>
+
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                      Work Experience
+                        <p>2020-05-31 to Present</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Lead Software Engineer:</strong>
+                      </p>
+                      <p>Individual contributor for billing and subscription management team. Developed and managed a suite of services managing customer product entitlements, subscriptions, and billing information.</p>
+                        <p class="highlight">Developed services in Ruby, Ruby-on-Rails, Java, and Javascript</p>
+                        <p class="highlight">Lead team&#x27;s transition from datacenter service deployments to AWS Managed Kubernetes</p>
+                        <p class="highlight">Developed React front-ends for managing customer entitlements, subscriptions, and accounts</p>
+                        <p class="highlight">Developed end-to-end test suite for team&#x27;s major services</p>
+                        <p class="highlight">Migrated subscription change queuing system from in-house solution to AWS SNS/SQS backed service</p>
+                        <p class="highlight">Participated in 24/7/365 on-call rotation</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2019-06-30 to 2020-05-31</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Technical Product Manager / Senior Software Engineer:</strong>
+                      </p>
+                      <p>Individual contributor and technical product manager for the External Load Balancing team. Responsible for KTLO on the F5s, DNS, Fastly, and in house load balancing solutions. In addition, provided leadership and direction around team deliverables and priorities.</p>
+                        <p class="highlight">Prioritized team objectives based on stakeholder feedback and worked closely with sister teams to ensure workstreams would not block each other</p>
+                        <p class="highlight">Curated team MMFs and facilitated planning sessions</p>
+                        <p class="highlight">Used Terraform to manage alerting and dashboard infrastructure for team owned products</p>
+                        <p class="highlight">Assisted in the development of Kubernetes CRDs for in-house load balancing solution</p>
+                        <p class="highlight">Managed, configured, and maintained F5 load-balancing tiers for internal, staging, and production networks</p>
+                        <p class="highlight">Migrated antiquated DNS infrastructure from F5s to BGP/Keepalived in development, staging, and production networks</p>
+                        <p class="highlight">Used Ignition/SLPXE/Ansible to deploy and orchestrate docker  container services for DNS and in-house load balancing solutions extensively</p>
+                        <p class="highlight">Migrated CentOS/CoreOS hosts to Flatcar</p>
+                        <p class="highlight">Participated in 24/7/365 on-call rotation</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2018-07-31 to 2019-06-30</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Manager, DevOps:</strong>
+                      </p>
+                      <p>Lead the day to day operations of the DevOps teams. Served as an expert in NWEA technologies, automation, and deployment strategies. Worked with internal stakeholders to schedule and prioritize DevOps deliverables. Provided technical and non-technical mentorship to all members of the team.</p>
+                        <p class="highlight">Oversaw DevOps staff, managed the prioritization of team deliverables, and worked with project managers, department heads and team members to determine project approaches, and parameters</p>
+                        <p class="highlight">Set standards and guidelines for tools, processes, technologies, and methodologies used by the DevOps team to develop and deliver solutions</p>
+                        <p class="highlight">Reduced team expenditures by $250,000/yr by transitioning to Open Source Puppet from Puppet Enterprise</p>
+                        <p class="highlight">Worked with the Architecture team to develop and maintain blueprints and road maps for all systems and automation related components</p>
+                        <p class="highlight">Conducted capacity planning for build automation systems and development environments</p>
+                        <p class="highlight">Analyzed growth patterns to predict future need for development environments and build systems</p>
+                        <p class="highlight">Developed Third Party Patching Policy for applications, code dependencies, and firmware supported by product engineering organization</p>
+                        <p class="highlight">Developed Access Management policies and processes for Amazon Web Services</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2014-08-31 to 2018-07-31</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Sr. DevOps / Linux Systems Engineer:</strong>
+                      </p>
+                      <p>Responsible for configuration management, system provisioning, monitoring, and automation in production and pre-production environments for web-based SaaS. Generally tried to automate away as much of the day to day operations as possible so I could spend the afternoon reading about cool new JavaScript frameworks on Hacker News.</p>
+                        <p class="highlight">Lead DevOps staff on the design, implementation, and maintenance of enterprise systems</p>
+                        <p class="highlight">Drove team towards implementing rolling deployments and restarts across collocated services</p>
+                        <p class="highlight">Lead deployment of Prometheus / Grafana for the aggregation of system and application metrics</p>
+                        <p class="highlight">Lead transition from NagiosXI to Sensu Open Source for monitoring and alerting</p>
+                        <p class="highlight">Worked directly with developers to facilitate application deployment, configuration, monitoring, and triaging procedures for Java, Clojure, NodeJS and PHP applications</p>
+                        <p class="highlight">Primary engineer supporting application deployments to production environments</p>
+                        <p class="highlight">Supported developers transitioning a collocated SaaS deployed on Linux VMs to serverless, microservice architecture on AWS</p>
+                        <p class="highlight">Developed proof of concept services using AWS Lambda, DynamoDB, Kinesis, SNS, and other serverless technologies with Terraform, NodeJS, and the aws-sdk</p>
+                        <p class="highlight">Transitioned company from independently provisioned IAM credentials to SAML/ADFS implementation</p>
+                        <p class="highlight">Prioritized team objectives based on stakeholder feedback and worked closely with sister teams to ensure workstreams would not block each other</p>
+                        <p class="highlight">Used Puppet/Hiera/r10k extensively to manage system configuration and application configuration</p>
+                        <p class="highlight">Developed NodeJS/React web application to ease the burden of monthly development releases</p>
+                        <p class="highlight">Developed Ruby/Sinatra web application allowing developers to manage software deployments in environments</p>
+                        <p class="highlight">Developed CI/CD Build Pipeline utilizing Docker, Nomad, Consul, and Jenkins</p>
+                        <p class="highlight">Automated deployment and configuration of BIG-IP F5 LTM load balancer across ~2,500 VMs</p>
+                        <p class="highlight">Responsible for ~2,500 Redhat and CentOS VMs deployed on VMWare ESXi with Foreman</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2014-02-28 to 2014-07-31</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Web Application Engineer:</strong>
+                      </p>
+                      <p>Responsible for installing, configuring, and maintaining web application services for the Corps of Engineers network. Provide systems administration on RHEL5/6 and Oracle Solaris 8/9/10.</p>
+                        <p class="highlight">Installed, configured, maintained Oracle WebLogic and Forms and Reports services</p>
+                        <p class="highlight">Installed, configured, maintained Apache and Nginx as a proxy for Java services</p>
+                        <p class="highlight">Monitored web application services with Nagios</p>
+                        <p class="highlight">Provisioned and configured RHEL5/6 virtual servers on VMWare ESXi</p>
+                        <p class="highlight">Automated service deployments with Puppet on RHEL and Solaris 9/10/11</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2013-04-30 to 2014-02-28</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Linux Systems Engineer:</strong>
+                      </p>
+                      <p>Managed developer environments for large scale web application consisting of various technologies ncluding Apache, JBoss, Oracle, and Java. Provided systems administration, monitoring, maintainence, deployments, troubleshooting, and automation services</p>
+                        <p class="highlight">Developed application monitoring dashboards in Python utilizing Flask, HTML5/CSS, and jQuery</p>
+                        <p class="highlight">Helped identify and eliminate application bottlenecks using New Relic, Chrome, and other utilities</p>
+                        <p class="highlight">Utilized Puppet and Chef across all environments to automatically configure and deploy software</p>
+                        <p class="highlight">Provided support as needed in staging, release, and production environments</p>
+                        <p class="highlight">Developed Python automation frameworks to simply management of environments</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2011-08-31 to 2013-04-30</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Network Systems Engineer:</strong>
+                      </p>
+                      <p>Served as on onsite administrator for a medium sized mobile commerce development group. Provided general troubleshooting of operating systems, networking, software installations and hardware upgrades as well as assisted in web development for client’s web applications.</p>
+                        <p class="highlight">Responsible for day to day administration/monitoring of production java application</p>
+                        <p class="highlight">Deployed Puppet and Chef across environments to automatically provision and configure machines</p>
+                        <p class="highlight">Constructed clean, high volume integration, development, and pilot networks</p>
+                        <p class="highlight">Developed generic Linux kernel modules in C for Android OS</p>
+                        <p class="highlight">Developed Python automation and test framework for interacting with smart card media</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2011-07-31 to 2013-04-30</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>IT / Telecom Technician:</strong>
+                      </p>
+                      <p>Supported the Convention Center’s events related networks. Configured switches, routers, and Xirrus wifi-arrays via console and GUI applications. Provided on-site technical support to customer’s when needed.</p>
+                        <p class="highlight">Diagramed Convention Center networks in Microsoft Visio</p>
+                        <p class="highlight">Designed ‘Captive Portal’ web pages for client’s Wi-Fi network on an events related basis</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2008-01-31 to 2011-08-31</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Student Help Desk Lead:</strong>
+                      </p>
+                      <p>Supported students and faculty members for the college’s “MyPCC” records system and Blackboard online classroom systems. Support was provided in-person and over the phone escalating calls as necessary.</p>
+                        <p class="highlight">Trained new employees in equipment usage and supporting students/faculty</p>
+                        <p class="highlight">Maintained a collection of laptops, digital cameras, and projectors for students to check out and use</p>
+                        <p class="highlight">Developed several awareness guides to help protect students from malware and unauthorized access</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2010-04-30 to 2011-04-30</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Lab Tech Lead:</strong>
+                      </p>
+                      <p>Served as on onsite technician lead for a power and performance forecasting group. Maintained Windows Server 2008, Windows 7, and Linux workstations for testing environments. Trained and provided assistance in determining ‘best known methods’ for benchmarking and power validation.</p>
+                        <p class="highlight">Performed manageability and security compliance testing on major management consoles</p>
+                        <p class="highlight">Instrumented and validated customer reference boards for power and performance validation</p>
+                        <p class="highlight">Developed automated workloads for benchmarking and power validation</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2009-10-31 to 2010-03-31</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Test Intern:</strong>
+                      </p>
+                      <p>Responsible for designing and implementing automated and manual test cases to ensure the company’s in-house PHP web application deployed stable and bug free. Also served as an onsite systems administrator responsible for maintaining the company’s network and servers.</p>
+                        <p class="highlight">Developed a suite of automated GUI tests utilizing Selenium and the PHPUnit testing framework</p>
+                        <p class="highlight">Integrated company’s backend java survey software with WordPress CMS</p>
+                        <p class="highlight">Deployed and maintained company-wide Cisco VPN for external access to resources and applications</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2008-04-30 to 2009-04-30</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Lab Technician:</strong>
+                      </p>
+                      <p>Served as on onsite technician for a medium sized mobile commerce development group and as an interim network / systems administrator. Provided general troubleshooting of operating systems, networking, software installations and hardware upgrades as well as assisted in web development for in-group and out-of-group Intel employees.</p>
+                        <p class="highlight">Performed system administration on CentOS, FreeBSD, OpenBSD and Windows Server</p>
+                        <p class="highlight">Managed 25-30 business critical servers during our product&#x27;s external pilot phase</p>
+                        <p class="highlight">Constructed clean, high volume integration, development, and pilot networks</p>
+                        <p class="highlight">Developed and maintained support website for external pilot users</p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2006-06-30 to 2007-06-30</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                      <p class="title">
+                            <strong>Technology Sales Associate:</strong>
+                      </p>
+                      <p>Took lead in sales situations involving technology and electronics in general. I provided guidance to customers purchasing new computers, computer components and software.</p>
+                        <p class="highlight">Maintained excellent communication with supervisors and customers</p>
+                        <p class="highlight">Accomplished and exceeded all sales goals and quotas</p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                      Education
+                        <p>2009-12-31 to 2012-12-31</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                        <p
+                          style="margin-top:0;"
+                          class="title"
+                        >Oregon Institute of Technology</p>
+                      <p class="highlight">
+                          Bachelor of Science (B.S.):
+                        <i>Information Technology </i>
+                      </p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2007-12-31 to 2009-12-31</p>
+                  </div>
+                  <div class="content-text work-listing education-listing">
+                        <p
+                          style="margin-top:0;"
+                          class="title"
+                        >Portland Community College</p>
+                      <p class="highlight">
+                          Associate of Science (A.S.):
+                        <i>Computer Information Systems </i>
+                      </p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                      Volunteering
+                        <p>2013-06-01 to Present</p>
+                  </div>
+                  <div class="content-text work-listing">
+                      <p>
+                        <strong>Rewild Portland</strong>
+                      </p>
+                      <p>
+                        Helped do all things IT related including purchasing guidence, service support, website hosting, and development
+                      </p>
+                  </div>
+                </div>
+              </section>
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                        <p>2012-01-31 to 2013-01-31</p>
+                  </div>
+                  <div class="content-text work-listing">
+                      <p>
+                        <strong>Free Geek</strong>
+                      </p>
+                      <p>
+                        Taught an introductory course on using the Ubuntu operating system to students who qualified for free computers through the volunteer program.
+                      </p>
+                  </div>
+                </div>
+              </section>
+
+            <section class="content">
+              <div class="row">
+                <div class="content-cat">
+                  Languages
+                </div>
+                <div class="content-text">
+                    <ul>
+                        <li>English</li>
+                        <li>Native Speaker</li>
+                    </ul>
+                </div>
+              </div>
+            </section>
+
+
+            <!-- PROFILES -->
+              <section class="content profiles">
+                <div class="row">
+                  <div class="content-cat">
+                    Profiles
+                  </div>
+                  <div class="content-text profiles-listing">
+                    <ul>
+                          <li>
+                            <a href="https://www.linkedin.com/in/ACoAAALl6wgB7eWQ6B0t5Zv8-DyrPzwyeTg7t98/" target="_blank">
+                              LinkedIn
+                            </a>
+                          </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+        </div>
+      </article>
+    </div>
+    <script>
+      function inIframe () {
+        try {
+          return window.self !== window.top;
+        } catch (e) {
+          return true;
+        }
+      }
+
+      if (inIframe) {
+        var header = document.querySelector('header')
+        header.style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
